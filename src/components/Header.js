@@ -9,9 +9,9 @@ const Header = () => {
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
-              Hi, I'm {data.name}{" "}
+              Oi, meu nome é {data.name}{" "}
               <span role="img" aria-label="Emoji">
-                👋
+                🖖🏻
               </span>
             </h2>
           </Fade>
@@ -46,7 +46,7 @@ const Header = () => {
               }`}
               className="primary-btn"
             >
-              CONNECT WITH ME
+              Entre em contato!
             </a>
           </Fade>
         </div>

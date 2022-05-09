@@ -17,21 +17,21 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "João Feijó",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Desenvolvedor",
     //Line 2 For Header
-    "products, brands,",
+    "Front-end Jr, UI Designer,",
     //Line 3 For Header
-    "and experience",
+    "e muito mais",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Sou desenvolvedor front-end, com foco em web/React.Também sou músico, entusiasta de UI/UX/Graphic Design e apaixonado por tudo que fale sobre arte, lugares e culturas.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "joaoantoniofeijo@gmail.com",
 
   // End Header Details -----------------------
 
@@ -113,13 +113,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Tenho 27 anos e comecei a programar no final de 2019. Sou graduado em Direito pela Universidade Franciscana e atualmente curso Sistemas para Internet na Universidade Federal de Santa Maria.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Possuo perfil multidisciplinar e colaborativo, habituado a trabalhar em equipe, com metodologias ágeis e jornadas de trabalho remotas. Orientado a Design Thinking.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "Proficiente na língua Inglesa (leitura/escrita/fala), com experiência de conversação testada no exterior, e espanhol de nível intermediário.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "https://lh3.googleusercontent.com/Tn4kJUocEad7JVTL4YXDSSRRBTV05cQElbyZ0rD2neTkOmFmsUVwmnUeZTShZuRrubWlvLarX890-Rdc-hpc=w1920-h929-rw",
 
   //   End About Section ---------------------
 
