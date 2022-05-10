@@ -13,6 +13,7 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
+            @include
             <img src={signature} alt="feijó logo with a signature"></img>
           </div>
           <div className="links-wrapper">

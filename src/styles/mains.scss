@@ -23,9 +23,60 @@ body {
   padding: 0;
   overflow-y: scroll;
   overflow-x: hidden;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.section {
+.section-one {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+}
+
+.section-two {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  clip-path: polygon(
+    20% 0,
+    0 10%,
+    0 47%,
+    0 94%,
+    20% 100%,
+    67% 94%,
+    91% 100%,
+    100% 89%,
+    100% 44%,
+    100% 10%,
+    76% 0,
+    39% 6%
+  );
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #ffffff,
+    #ffefba
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #ffffff,
+    #ffefba
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+.section-three {
   width: 100vw;
   height: auto;
   overflow: hidden;
@@ -43,13 +94,14 @@ body {
 .primary-btn {
   margin: 10px;
   padding: 10px;
-  background-color: black;
+  background-color: rgb(22, 22, 22);
   color: white;
   border: 0px;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   cursor: pointer;
+
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
 }
