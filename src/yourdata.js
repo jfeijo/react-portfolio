@@ -12,6 +12,11 @@ import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 
+//Image Import
+import drakkarLabel from "./images/drakkar-label.png"
+import npsLabel from "./images/figma-template.png"
+import aluraLabel from "./images/alurakut.png"
+import travellinStatic from "./images/travellinduo.png"
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -22,13 +27,13 @@ export default {
     //Line 1 For Header
     "Desenvolvedor",
     //Line 2 For Header
-    "Front-end Jr, UI Designer,",
+    "Front-end Jr., UI Designer Jr.,",
     //Line 3 For Header
     "e muito mais",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Sou desenvolvedor front-end, com foco em web/React.Também sou músico, entusiasta de UI/UX/Graphic Design e apaixonado por tudo que fale sobre arte, lugares e culturas.",
+    "Sou desenvolvedor front-end, com foco em web/React.js - músico, entusiasta de UI Design e apaixonado por tudo que fale sobre arte, lugares e culturas.",
 
   //Contact Email
   contactEmail: "joaoantoniofeijo@gmail.com",
@@ -38,65 +43,62 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Precificador Drakkar", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Ferramenta de escopo interno, desenvolvido juntamente com o time de Desenvolvimento da empresa Drakkar Solos.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: drakkarLabel,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "http://latestprecificador.drakkar.com.br/",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Protótipo NPS", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Design e prototipação do NPS - outro sistema de escopo fechado da Drakkar.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: npsLabel,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url:
+        "https://www.figma.com/file/Lu5LXJwltnmrxUcHaPmu4p/NPS?node-id=0%3A1",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "AluraKut", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Projeto feito em um bootcamp da escola de programação Alura, consiste em uma releitura front-end da extinta rede social Orkut.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: aluraLabel,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://alurakut-jfeijo.vercel.app/",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Travellin' Duo Release", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Uma página estática para explicar os serviços da banda Travellin' Duo.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: travellinStatic,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://travellin-release-static.vercel.app/",
     },
-    {
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
+    // {
+    //   title: "Project Five", //Project Title - Add Your Project Title Here
+    //   para:
+    //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+    //   //Project Image - Add Your Project Image Here
+    //   imageSrc:
+    //     "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    //   //Project URL - Add Your Project Url Here
+    //   url: "http://chetanverma.com/",
+    // },
+    // {
+    //   title: "Project Six", //Project Title - Add Your Project Title Here
+    //   para:
+    //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+    //   //Project Image - Add Your Project Image Here
+    //   imageSrc:
+    //     "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+    //   //Project URL - Add Your Project Url Here
+    //   url: "http://chetanverma.com/",
+    // },
 
     /*
     If You Want To Add More Project just Copy and Paste This At The End
@@ -130,33 +132,32 @@ export default {
   skills: [
     {
       img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "Conhecimentos sólidos em HTML5, acessibilidade, semântica e SEO.",
     },
     {
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "CSS3: Minha principal força - layouts responsivos, orientados à UI Design Patterns e acessibilidade.",
     },
     {
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Um ano de experiência de trabalho utilizando a linguagem ES6+ e contando!",
     },
     {
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Trabalho com React.js desde agosto de 2021, este é o meu atual foco de masterização e constante evolução.",
     },
     {
       img: designIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Massiva experiência com Design Gráfico, dominando softwares de manipulação de imagens e vetores, bem como o FIGMA para criação e prototipação de interfaces.",
     },
     {
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Team-player, possuo boa capacidade de relacionamento, inteligência emocional e faço amizades facilmente!",
     },
   ],
 
@@ -171,21 +172,21 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Vamos criar sua próxima experiência juntos!",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/jfeijo" },
     {
       img: codepenIcon,
-      url: "https://www.codepen.com/",
+      url: "https://www.codepen.com/jfeijo",
     },
     {
       img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+      url: "https://dribbble.com/jfeijo",
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/jfeijo",
     },
   ],
 

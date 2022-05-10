@@ -1,5 +1,7 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
+import signature from "../images/feijo-logo.svg"
+
 const Navbar = () => {
   return (
     <div className="section">
@@ -11,7 +13,7 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            Feijó.
+            <img src={signature} alt="feijó logo with a signature"></img>
           </div>
           <div className="links-wrapper">
             <button onClick={() => scrollTo("#work")}>Projetos</button>
