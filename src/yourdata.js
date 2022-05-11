@@ -11,15 +11,12 @@ import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
-import linkedinIcon from "./images/icons8-linkedin.svg"
 
 //Image Import
 import drakkarLabel from "./images/drakkar-label.png"
 import npsLabel from "./images/figma-template.png"
 import aluraLabel from "./images/alurakut.png"
 import travellinStatic from "./images/travellinduo.png"
-import dribbleImage from "./images/dribbble-990x371.jpg"
-
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -30,7 +27,7 @@ export default {
     //Line 1 For Header
     "Desenvolvedor",
     //Line 2 For Header
-    "Front-end Jr, UI Designer Jr",
+    "Front-end Jr., UI Designer Jr.,",
     //Line 3 For Header
     "e muito mais",
   ],
@@ -82,14 +79,16 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "https://travellin-release-static.vercel.app/",
     },
-    {
-      title: "My Dribbble Page", //Project Title - Add Your Project Title Here
-      para: "Descubra meus trabalhos como Designer!", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc: dribbleImage,
-      //Project URL - Add Your Project Url Here
-      url: "https://dribbble.com/jfeijo",
-    },
+    // {
+    //   title: "Project Five", //Project Title - Add Your Project Title Here
+    //   para:
+    //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+    //   //Project Image - Add Your Project Image Here
+    //   imageSrc:
+    //     "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    //   //Project URL - Add Your Project Url Here
+    //   url: "http://chetanverma.com/",
+    // },
     // {
     //   title: "Project Six", //Project Title - Add Your Project Title Here
     //   para:
@@ -158,7 +157,7 @@ export default {
     {
       img: codeIcon,
       para:
-        "Sempre disposto a trabalhar em equipe, fazer novas amizades e conhecer novos lugares!",
+        "Team-player, possuo boa capacidade de relacionamento, inteligência emocional e faço amizades facilmente!",
     },
   ],
 
@@ -166,10 +165,10 @@ export default {
 
   //   Promotion Section --------------------------
 
-  // promotionHeading: "Heading",
-  // promotionPara:
-  //   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  // // End Promotion Section -----------------
+  promotionHeading: "Heading",
+  promotionPara:
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  // End Promotion Section -----------------
 
   //   Contact Section --------------
 
@@ -188,10 +187,6 @@ export default {
     {
       img: instagramIcon,
       url: "https://www.instagram.com/jfeijo",
-    },
-    {
-      img: linkedinIcon,
-      url: "https://www.linkedin.com/in/jafeijo",
     },
   ],
 

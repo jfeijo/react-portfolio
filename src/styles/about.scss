@@ -43,25 +43,19 @@
   .image-wrapper {
     width: 50%;
     image-rendering: optimizeQuality;
-    transform: scale(0.8) translate(-5rem, -10rem);
-    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 36% 51%, 46% 21%);
+    transform: scale(0.8);
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     @include media(">=phone", "<lgphone") {
       width: 100%;
-
-      transform: none;
-      clip-path: circle(50% at 50% 50%);
     }
     @include media(">=lgphone", "<tablet") {
-      width: auto;
-      transform: none;
+      width: 100%;
     }
     @include media(">=tablet", "<desktop") {
       width: 100%;
-      transform: none;
     }
   }
 }
